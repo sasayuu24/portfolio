@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/* 25 2cols layout | 2カラムレイアウトv01 */
+
+body {
+  background-color: #fff4fc;
+}
+
+nav.menu {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ffcaca;
+  margin: 0 auto;
+  padding: 0;
+  position: fixed;
+}
+
+nav.menu ul {
+  width: 1200px;
+  display: flex;
+}
+
+nav.menu ul li {
+  background-color: #ffa0c5;
+  border-right: 1px solid #ffcaca;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+nav.menu ul li:last-child {
+  border-right: 0;
+}
+
+nav.menu ul li a {
+  display: block;
+  line-height: 36px;
+  text-align: center;
+  color: #1f0000;
+  text-decoration: none;
+}
+
+nav.menu ul li a:hover {
+  background-color: #fff;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 10px 10px;
+}
+
+/* -------------------------------------------ヘッダー部分 */
+
+header#top {
+  width: 1210px;
+  height: 100vh;
+    background-image: url(../images/top.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-left: 0;
+  box-sizing: border-box;
+  position:relative;
+}
+
+/* -------------------------------------------メインボックス部分 */
+
+.main_box {
+  border: 3px solid #ffa0c5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header#top h1 {
+  color: #fff;
+  position: absolute;
+  margin-top: 20px;
+  right: 60px;
+  top:60px;
+  text-align: center;
+}
+
+section.one {
+  width: 300px;
+  background-color: #add8eb;
+  padding: 10px;
+}
+
+section.two {
+  width: 600px;
+  background-color: #6787f1;
+  padding: 10px;
+}
+
+.fix_box a {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 10px;
+  left: 10px;
+  background-color: #ffa0c5;
+  font-size: 20px;
+  color:#fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_box {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/menu.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.kyanpe-n {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/kyanpe-n.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.yukata {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/yukata.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.magokoro {
+  width: 500px;
+  height: 300px;
+  background-image: url(../images/magokoro.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  margin-top: 70px;
+}
